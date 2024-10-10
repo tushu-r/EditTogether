@@ -28,7 +28,7 @@ const page = ({params}:any) => {
       <WorkspaceHeader fileName={fileData?.fileName} onSave={()=>setTriggerSave(!triggerSave)}/>
 
         <div className='flex flex-row justify-evenly items-center'>
-            <div className='h-[93vh] overflow-y-scroll  overflow-x-hidden w-[50%] mt-[0px] border-[2px] border-gray-400'> 
+            <div className='h-[93vh]  overflow-x-hidden w-[50%] mt-[0px] border-[2px] border-gray-400'> 
                <Editor onSaveTrigger={triggerSave}
                fileId={params.field}
                fileData={fileData}
