@@ -7,8 +7,8 @@ import { Toaster } from "@/components/ui/sonner";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Erasor.io",
-  description: "MERN STACK APP ",
+  title: "EditTogether",
+  description: "NEXT JS APP",
 };
 
 export default function RootLayout({
